@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fredoka', sans-serif;
+}
+/*
+Colores:
+Morado: #532EC7
+Negro: #343434
+Gris: #767676
+Amarillo: #FFD338
+Amarillo Footer: #E0B731
+*/

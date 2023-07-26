@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://fiestasinfantilesmexico.com.mx/sitemap.xml
