@@ -7,6 +7,921 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fredoka', sans-serif;
 }
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.Header{
+   position: relative;
+   width: 100%;
+   height: 80px;
+   background-color: #532EC7;
+}
+.Menu{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+div.Menu a{
+    text-decoration: none;
+    color: white;
+    font-family: Fredoka;
+    font-size: 20px;
+}
+.Intro{
+    position: relative;
+    width: 100%;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.Organizamos{
+    color: #FFD338;
+    font-size: 40px;
+    font-family: Caveat;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.Fiestas{
+    color: #532EC7;
+    font-size: 40px;
+    font-family: Fredoka;
+    font-weight: 700;
+}
+.Inicio_Texto{
+    width: 800px;
+    text-align: center;
+    color: #767676;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 40px;
+}
+.Intro-2{
+    position: relative;
+    width: 100%;
+    height: 780px;
+    background-image: url(../img/bg-amarillo.webp);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Intro-2_Izquierda{
+    width: 505px;
+    height: 550px;
+    top: 115px;
+    position: relative;
+    background-color: white;
+}
+.Intro-2_Titulo{
+    width: 445px;
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    color: #343434;
+    font-size: 35px;
+    font-family: Fredoka;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 1px;
+}
+.Intro-2_Texto{
+    width: 445px;
+    left: 26px;
+    top: 145px;
+    position: relative;
+    color: #767676;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+}
+.Intro-2_Boton {
+    position: relative;
+    display: flex;
+    width: 147px;
+    height: 46px;
+    left: 30px;
+    top: 180px;
+    background-color: #532EC7;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+.Intro-2_Derecha{
+    width: 505px;
+    height: 550px;
+    top: 115px;
+    position: relative;
+    background-color: #F5F5F5;
+}
+.Galeria{
+    display: flex;
+    width: 100%;
+    height: 980px;
+    position: relative;
+    background-image: url(../img/bg-morado.webp);
+    justify-content: center;
+    align-items: center;
+}
+.Galeria_Tabla{
+    position: relative;
+    width: 100%;
+    display: grid;
+    row-gap: 50px;
+    align-items: center;
+    justify-items: center;
+}
+.Galeria_Fila{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.Galeria_Imagen{
+    width: 20%;
+    height: 100%;
+}
+.Servicios{
+    position: relative;
+    width: 100%;
+    height: 510px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Servicios_Izquierda{
+    position: relative;
+    height: 422px;
+    display: flex;
+    top: 60px;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.Servicios_Izquierda-1{
+    position: relative;
+    width: 330px;
+    height: 422px;
+}
+.Servicios_Imagen{
+position: absolute;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+}
+.Servicios_Titulo{
+    position: absolute;
+    width: 300px;
+    top: 255px;
+    color: #532EC7;
+    font-size: 25px;
+    font-family: Fredoka;
+    font-weight: 600;
+}
+.Servicios_Texto{
+    position: absolute;
+    width: 300px;
+    top: 302px;
+    color: #767676;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.30px;
+}
+.Servicios_Izquierda-2{
+    position: relative;
+    width: 330px;
+    height: 422px;
+}
+.Servicios_Derecha{
+    position: relative;
+    width: 440px;
+    height: 422px;
+    background-color: #FFD338;
+    margin-left: 55px;
+    top: 60px;
+}
+.Servicios_Derecha_Titulo{
+    position: relative;
+    width: 365px;
+    left: 25px;
+    top: 25px;
+    color: #363636; 
+    font-size: 25px; 
+    font-family: Fredoka; 
+    font-weight: 600;
+}
+.Servicios_Derecha_Texto{
+    position: relative;
+    width: 365px;
+    left: 25px;
+    top: 70px;
+    color: #363636;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px; 
+    letter-spacing: 0.30px;
+}
+.Servicios_Derecha_Servicios{
+    position: relative;
+    width: 365px;
+    height: 30px;
+    left: 25px;
+    top: 90px;
+    margin-bottom: 10px;
+}
+.Servicios_Derecha_Vector{
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    top: 5px;
+}
+.Contacto_Mensaje{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background-image: url(../img/bg-morado.webp);
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.SaberMas{
+    position: relative;
+    color: #FFD338;
+    font-size: 50px;
+    font-family: Caveat;
+    font-weight: 700;
+    letter-spacing: 0.56px;
+    text-align: center;
+}
+.DejarMensaje{
+    position: relative;
+    color: white;
+    font-size: 55px;
+    font-family: Fredoka;
+    font-weight: 600;
+    letter-spacing: 0.57px;
+    text-align: center;
+}
+.Contactar_Boton{
+    position: relative;
+    width: 147px;
+    height: 52px;
+    background: #F7F7F7;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    text-decoration: none;
+}
+.Contactar_Mensaje{
+    position: relative; 
+    color: #333333; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 400;
+}
+.MejorFiesta_Cuadro{
+    position: relative;
+    width: 100%;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    top: 85px;
+    flex-direction: column;
+    justify-content: center;
+}
+.Creamos_Cuadro{
+    position: relative;
+    width: 340px;
+    height: 42px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+}
+.Creamos_Linea{
+    position: relative;
+    width: 80px;
+    top: 5px;
+    color: #532EC7;
+    border-style: solid;
+}
+.Creamos_Texto{
+    position: relative;
+    width: 200px;
+    height: 42px;
+    color: #FFD338;
+    font-size: 40px;
+    font-family: Caveat;
+    font-weight: 700;
+    letter-spacing: 0.50px;
+}
+.MejorFiesta_Texto{
+    position: relative;
+    top: 15px;
+    color: #343434; 
+    font-size: 35px; 
+    font-family: Fredoka; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 7.70px;
+}
+.MejorFiesta_Texto2{
+    position: relative;
+    top: 35px;
+    width: 769px; 
+    text-align: center; 
+    color: #767676; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    line-height: 30px; 
+    letter-spacing: 0.32px;
+}
+.Servicios2_Cuadro{
+    position: relative;
+    height: 598px; 
+}
+.LoQueOfrecemos_Texto{
+    position: relative;
+    color: #343434; 
+    font-size: 35px; 
+    font-family: Fredoka; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 1px;
+    text-align: center;
+    top: 170px;
+}
+.Servicios2_Cuadros{
+    position: relative;
+    width: 100%;
+    height: 508px;
+    top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Servicios2_CuadrosTamaño{
+    width: 350px; 
+    height: 508px;
+    background: #F5F5F5; 
+    border-radius: 5px
+}
+.Servicios2_CuadrosTamaño img{
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.Servicios2_CuadrosTexto{
+    position: relative;
+    width: 310px;
+    height: 194px;
+    left: 20px;
+    top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.Servicios2_CuadrosTexto--Titulo{
+    position: relative;  
+    color: #532EC7; 
+    font-size: 17px; 
+    font-family: Fredoka; 
+    font-weight: 600;
+    line-height: 30px; 
+    letter-spacing: 0.50px;
+}
+.Servicios2_CuadrosTexto--Descripcion{
+    position: relative; 
+    width: 310px; 
+    color: #767676; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    line-height: 30px; 
+    letter-spacing: 0.32px;
+}
+.Servicios2_SaberMasBoton{
+    position: relative;
+    width: 133px;
+    height: 47px;
+    background: #532EC7;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CuadroContactoTamaño{
+    position: relative;
+    height: 820px;
+    width: 100%;
+    top: 285px;
+    background-image: url(../img/bg-contacto.webp);
+    background-size: cover;
+}
+.CuadroContacto{
+    position: relative;
+    width: 100%;
+    height: 685px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 130px;
+}
+.FormaDeContacto{
+    position: relative;
+    width: 80%;
+    height: 175px;
+}
+.FormaDeContacto_Titulo{
+    color: #343434; 
+    font-size: 35px; 
+    font-family: Fredoka; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    line-height: 45px; 
+    letter-spacing: 1px;
+}
+.TelefonoCorreoCuadro{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.ContactoCuadro{
+    position: relative;
+    width: 277px;
+    height: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 29px;
+}
+.ContactoCuadro_Datos{
+    position: relative;
+    width: 170px;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ContactoCuadro_Titulo{
+    color: #343434; 
+    font-size: 28px; 
+    font-family: Fredoka; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    line-height: 35px; 
+    letter-spacing: 0.80px;
+}
+.ContactoCuadro_Descripcion{
+    color: #343434; 
+    font-size: 28px; 
+    font-family: Caveat; 
+    font-weight: 700; 
+    text-transform: capitalize; 
+    line-height: 35px; 
+    letter-spacing: 0.80px;
+}
+.ContactoCuadro_Imagen{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #FFD338; 
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.22); 
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContactoCuadro_Imagen img{
+    width: 35px; 
+    height: 35px;
+}
+.ContactoCuadro_Descripcion a{
+    color: #532EC7; 
+    font-size: 28px; 
+    font-family: Caveat; 
+    font-weight: 700; 
+    text-transform: lowercase; 
+    line-height: 35px; 
+    letter-spacing: 0.80px;
+}
+iframe{
+    width: 80%;
+}
+.Footer{
+    position: relative;
+    height: 75px;
+    width: 100%;
+    background: #E0B731;
+    top: 285px
+}
+.FooterTexto{
+    position: relative;
+    top: 22px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.FooterTexto2{
+    color: #767676; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    line-height: 30px; 
+    letter-spacing: 0.32px
+}
+.breadcrumbs nav{
+    color: #C7C7C7;
+    padding: 50px; 
+}
+.breadcrumbs nav a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #C7C7C7;
+}
+.TamañoCuadro{
+    position: relative;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.CuadroImagenes_Tamaño{
+    position: relative;
+    width: 560px;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.CuadroImagenes_Tamaño img{
+    width: 180px;
+    height: 180px;
+}
+.CuadroTexto_Derecha{
+    width: 535px;
+    height: 370px;
+    display: flex;
+    gap: 45px;
+    flex-direction: column;
+}
+.Cuadro_Titulo{
+    position: relative; 
+    color: #532EC7; 
+    font-size: 40px; 
+    font-family: Fredoka; 
+    font-weight: 600; 
+    line-height: 60px; 
+    letter-spacing: 1.74px;
+}
+.Cuadro_Descripcion{
+    color: #767676; 
+    font-size: 18px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    line-height: 30px;
+}
+.Cuadro_Boton{
+    position: relative; 
+    width: 147px; 
+    height: 46px;
+    background: #532EC7; 
+    border-radius: 30px;
+    color: white; 
+    font-size: 13px; 
+    font-family: Montserrat; 
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Remolque_Footer{
+    position: relative;
+    height: 75px;
+    width: 100%;
+    background: #E0B731;
+    top: 90px;
+}
+.VideojuegosCuadroImagenes_Tamaño{
+    position: relative;
+    width: 560px;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.VideojuegosCuadroImagenes_Tamaño img{
+    width: 275px;
+    height: 180px;
+}
+div.Menu a:hover {
+    color:#FFD338;
+}
+
+
+
+@media screen and (max-width: 767px){
+    div.Menu a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 9px;
+    }
+    .Organizamos{
+        font-size: 30px;
+    }
+    .Fiestas{
+        font-size: 30px;
+    }
+    .Inicio_Texto{
+        width: 80%;
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .Intro-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1200px;
+        justify-content: flex-start;
+    }
+    .Intro-2_Izquierda{
+        width: 85%;
+        top: 50px;
+
+    }
+    .Intro-2_Titulo{
+        width: 85%;
+        font-size: 25px;
+        line-height: 35px;
+
+    }
+    .Intro-2_Texto{
+        width: 80%;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .Intro-2_Derecha{
+        width: 85%;
+        top: 50px;
+    }
+    .Galeria{
+        height: 380px;
+    }
+    .Galeria_Fila{
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .Servicios{
+        flex-direction: column;
+        height: 1370px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .Servicios_Imagen{
+        width: 100%;
+    }
+    .Servicios_Izquierda{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Servicios_Derecha{
+        width: 85%;
+        top: 520px;
+        margin-left: 0px;
+    }
+    .Servicios_Derecha_Texto{
+        top: 45px;
+        width: 90%;
+        font-size: 15px;
+    }
+    .SaberMas{
+        font-size: 40px;
+    }
+    .DejarMensaje{
+        font-size: 37px;
+    }
+    .Creamos_Texto{
+        font-size: 35px;
+    }
+    .MejorFiesta_Texto{
+        font-size: 30px;
+    }
+    .MejorFiesta_Texto2{
+        width: 90%;
+        line-height: 25px;
+    }
+    .LoQueOfrecemos_Texto{
+        font-size: 30px;
+    }
+    .Servicios2_Cuadro{
+        height: 1555px;
+    }
+    .Servicios2_Cuadros{
+        flex-wrap: wrap;
+        top: 200px;
+        gap: 20px;
+    }
+    .CuadroContacto{
+        top: 50px;
+    }
+    .FormaDeContacto{
+        height: 290px;
+    }
+    .FormaDeContacto_Titulo{
+        font-size: 30px;
+    }
+    .TelefonoCorreoCuadro{
+        flex-direction: column;
+        gap: 30px;
+        top: 80px;
+    }
+    .ContactoCuadro_Descripcion a{
+        font-size: 25px;
+    }
+    .CuadroContactoTamaño{
+        height: 890px;
+    }
+    .Footer{
+        top: 220px;
+    }
+    .FooterTexto2{
+        font-size: 11px;
+    }
+    .breadcrumbs nav a{
+        font-size: 10px;
+    }
+    .breadcrumbs nav{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+    .TamañoCuadro{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: 730px;
+        gap: 0px;
+    }
+    .CuadroImagenes_Tamaño{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        height: 250px;
+    }
+    .CuadroImagenes_Tamaño img{
+        width: 40%;
+        height: 50%;
+    }
+    .CuadroTexto_Derecha{
+        width: 100%;
+        align-items: center;
+        height: 335px;
+    }
+    .Cuadro_Titulo{
+        font-size: 25px;
+        line-height: 0px;
+    }
+    .Cuadro_Descripcion{
+        font-size: 15px;
+        line-height: 20px;
+        width: 85%;
+    }
+    .Remolque_Footer{
+        top: 20px;
+    }
+    .VideojuegosCuadroImagenes_Tamaño{
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .VideojuegosCuadroImagenes_Tamaño img{
+        width: 40%;
+        height: 35%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    div.Menu a{
+        font-size: 16px;
+    }
+    .Inicio_Texto{
+        width: 85%;
+    }
+    .Intro-2{
+        flex-direction: column;
+        align-items: center;
+        height: 1400px
+    }
+    .Intro-2_Izquierda{
+        top: 0px;
+    }
+    .Intro-2_Derecha{
+        top: 0px;
+    }
+    .Galeria{
+        height: 620px;
+    }
+    .Galeria_Fila{
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .Servicios{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .Servicios_Imagen{
+        width: 100%;
+    }
+    .Servicios_Derecha{
+        margin-left: 0px;
+        height: 460px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .MejorFiesta_Texto2{
+        width: 80%;
+    }
+    .Servicios2_Cuadros{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .Servicios2_Cuadro{
+        height: 1060px;
+    }
+    .TamañoCuadro{
+        height: 660px;
+        align-items: center;
+    }
+    .CuadroImagenes_Tamaño{
+        width: 80%;
+        height: 100%;
+    }
+    .CuadroTexto_Derecha{
+        height: 620px;
+        width: 70%;
+    }
+    .Cuadro_Descripcion{
+        width: 80%;
+    }
+    .VideojuegosCuadroImagenes_Tamaño{
+        gap: 10px;
+    }
+    .VideojuegosCuadroImagenes_Tamaño img{
+        width: 80%;
+        height: 37%;
+    }
+}
 /*
 Colores:
 Morado: #532EC7
