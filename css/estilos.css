@@ -825,7 +825,7 @@ iframe{
         height: 890px;
     }
     .Footer{
-        top: 220px;
+        top: 0px;
     }
     .FooterTexto2{
         font-size: 11px;
@@ -841,7 +841,7 @@ iframe{
     .TamañoCuadro{
         flex-direction: column-reverse;
         justify-content: flex-end;
-        height: 730px;
+        height: 100%;
         gap: 0px;
     }
     .CuadroImagenes_Tamaño{
@@ -877,6 +877,8 @@ iframe{
         width: 100%;
         justify-content: center;
         gap: 10px;
+        align-content: flex-start;
+        height: 300px;
     }
     .VideojuegosCuadroImagenes_Tamaño img{
         width: 40%;
@@ -954,6 +956,7 @@ iframe{
     }
     .VideojuegosCuadroImagenes_Tamaño{
         gap: 10px;
+        align-content: center;
     }
     .VideojuegosCuadroImagenes_Tamaño img{
         width: 80%;
