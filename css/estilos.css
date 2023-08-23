@@ -510,7 +510,6 @@ iframe{
     width: 80%;
 }
 .Footer{
-    height: 75px;
     width: 100%;
     background: #E0B731;
     display: flex;
@@ -820,13 +819,14 @@ iframe{
     }
     .Footer{
         top: 0px;
+        padding: 15px 0;
     }
     .FooterTexto{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 5px;
+        gap: 10px;
     }
     .invisible{
         display: none;
