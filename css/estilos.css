@@ -657,13 +657,6 @@ iframe{
     border-radius: 4px;
     transition: opacity 0.3s, visibility 0.3s;
     margin-right: 5px;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.whatsapp-container:hover .whatsapp-tooltip {
-    opacity: 1;
-    visibility: visible;
 }
 
 @media screen and (max-width: 767px){
