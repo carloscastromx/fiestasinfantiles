@@ -510,6 +510,7 @@ iframe{
     width: 80%;
 }
 .Footer{
+    padding: 20px 0;
     width: 100%;
     background: #E0B731;
     display: flex;
@@ -635,6 +636,7 @@ iframe{
     display: flex;
     align-items: center;
     z-index: 1;
+    flex-direction: row-reverse;
 }
 .fondo{
     background: #25d366;
@@ -644,18 +646,25 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
 }
 .whatsapp-container img{
     width: 70%;
+    z-index: 99;
+
 }
 .whatsapp-tooltip {
-    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
     background-color: #e8e8e8;
-    color: black;
-    padding: 5px;
-    border-radius: 4px;
+    color: #7F7D7D;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: -20px;
+    border-radius: 0 15px 15px 0;
     transition: opacity 0.3s, visibility 0.3s;
-    margin-right: 5px;
 }
 
 @media screen and (max-width: 767px){
